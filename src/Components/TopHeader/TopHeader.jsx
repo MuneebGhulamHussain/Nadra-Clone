@@ -4,6 +4,14 @@ import CallIcon from '@mui/icons-material/Call';
 import MailIcon from '@mui/icons-material/Mail';
 import { Container } from 'react-bootstrap';
 
+
+
+import facebook from "../assets/HeaderImages/facebook.svg";
+import twitter from "../assets/HeaderImages/twitter.svg";
+import instagram from "../assets/HeaderImages/instagram.svg";
+import youtube from "../assets/HeaderImages/footer_youtube.svg";
+import whatsapp from "../assets/HeaderImages/footer_whatsapp.png";
+
 const TopHeader = () => {
     return (
         <Container>
@@ -22,11 +30,11 @@ const TopHeader = () => {
                 </div>
                 <div className={styles.secondParent}>
                     <div className={styles.iconOne}>
-                        <img src="src/assets/HeaderImages/facebook.svg" alt="" />
-                        <img src="src/assets/HeaderImages/twitter.svg" alt="" />
-                        <img src="src/assets/HeaderImages/instagram.svg" alt="" />
-                        <img src="src/assets/HeaderImages/footer_youtube.svg" alt="" />
-                        <img src="src/assets/HeaderImages/footer_whatsapp.png" alt="" />
+                        <img src={facebook} alt="" />
+                        <img src={twitter} alt="" />
+                        <img src={instagram} alt="" />
+                        <img src={youtube} alt="" />
+                        <img src={whatsapp} alt="" />
                     </div>
                 </div>
             </div>
