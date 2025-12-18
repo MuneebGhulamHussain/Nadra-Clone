@@ -1,0 +1,32 @@
+.cardOne{
+    display: flex;
+    gap: 10px;
+    
+}
+.forText{
+    
+    font-family: "Roboto";
+}
+.customParentClass{
+    background-color: #F2F2F2 !important;
+    margin-top: 40px !important;
+}
+.heading4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    /* margin-bottom: 20px !; */
+}
+
+
+@media only screen and (max-width:575px){
+
+    .cardOne{
+        margin-bottom: 15px;
+        gap: 80px;
+    }
+
+    .cardOne img{
+        width: 120px;
+    }
+}
