@@ -7,6 +7,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 
 
+import logo from "../../assets/HeaderImages/nadra_logo.svg";
+
+
 const NavbarCustom = () => {
 
 
@@ -77,7 +80,7 @@ const NavbarCustom = () => {
 
         <div className={styles.navBarTopPartParent}>
           <div className={styles.forImage}>
-            <img src="src/assets/HeaderImages/nadra_logo.svg" alt="" />
+            <img src={logo} alt="" />
           </div>
 
           <div className={styles.forText}>

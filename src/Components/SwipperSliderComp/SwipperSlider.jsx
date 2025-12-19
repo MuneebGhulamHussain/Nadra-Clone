@@ -8,30 +8,45 @@ import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 
+
+
+import image1 from "../../assets/SwipperSliderImages/img1.jfif"
+import image2 from "../../assets/SwipperSliderImages/img2.jfif"
+import image3 from "../../assets/SwipperSliderImages/img3.jfif"
+import image4 from "../../assets/SwipperSliderImages/img4.jfif"
+
+
+
+
+import addImage1 from "../../assets/SwipperSliderImages/add.png"
+import addImage2 from "../../assets/SwipperSliderImages/add1.png"
+import addImage3 from "../../assets/SwipperSliderImages/add2.png"
+
+
 const products = [
     {
-        image: "src/assets/SwipperSliderImages/img1.jfif",
+        image: image1,
         title: "Succession Certificate",
         // use any link you want use here
         link: "xyz link here",
         description: "In January 2021,NADRA introduced..."
     },
     {
-        image: "src/assets/SwipperSliderImages/img2.jfif",
+        image: image2,
         title: "Family Registeration Certificate (FRC)",
         // use any link you want use here
         link: "xyz link here",
         description: "Family Registeration Certificate (FRC) is..."
     },
     {
-        image: "src/assets/SwipperSliderImages/img3.jfif",
+        image: image3,
         title: "Child Registeration Certificate (CRC)",
         // use any link you want use here
         link: "xyz link here",
         description: "Child Registeration Certificate (CRC)..."
     },
     {
-        image: "src/assets/SwipperSliderImages/img4.jfif",
+        image: image4,
         title: " National Identity Card For Overseas Pakistanis (NICOP)",
         // use any link you want use here
         link: "xyz link here",
@@ -86,7 +101,7 @@ export default function ProductsSwiper() {
     <Col lg={4} md={4} sm={12}>
       <div className={styles.containerOne}>
         <img
-          src="src/assets/SwipperSliderImages/add1.png"
+          src={addImage1}
           alt=""
           className="img-fluid"
         />
@@ -96,7 +111,7 @@ export default function ProductsSwiper() {
     <Col lg={4} md={4} sm={12}>
       <div className={styles.containerOne}>
         <img
-          src="src/assets/SwipperSliderImages/add.png"
+          src={addImage2}
           alt=""
           className="img-fluid"
         />
@@ -106,7 +121,7 @@ export default function ProductsSwiper() {
     <Col lg={4} md={4} sm={12}>
       <div className={styles.containerOne}>
         <img
-          src="src/assets/SwipperSliderImages/add2.png"
+          src={addImage3}
           alt=""
           className="img-fluid"
         />

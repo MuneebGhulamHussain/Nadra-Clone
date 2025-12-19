@@ -6,13 +6,24 @@ import { Container } from 'react-bootstrap';
 
 
 
-import facebook from "../assets/HeaderImages/facebook.svg";
-import twitter from "../assets/HeaderImages/twitter.svg";
-import instagram from "../assets/HeaderImages/instagram.svg";
-import youtube from "../assets/HeaderImages/footer_youtube.svg";
-import whatsapp from "../assets/HeaderImages/footer_whatsapp.png";
+// import facebook from "./src//";
+// import facebook from "../assets/HeaderImages/facebook.svg";
+
+import facebook from "../../assets/HeaderImages/facebook.svg";
+import twitter from "../../assets/HeaderImages/twitter.svg";
+import instagram from "../../assets/HeaderImages/instagram.svg";
+import youtube from "../../assets/HeaderImages/footer_youtube.svg";
+import whatsapp from "../../assets/HeaderImages/footer_whatsapp.png";
+
+
+// import twitter from "public/HeaderImages/twitter.svg";
+// import instagram from "public/HeaderImages/instagram.svg";
+// import youtube from "public/HeaderImages/footer_youtube.svg";
+// import whatsapp from "public/HeaderImages/footer_whatsapp.png";
 
 const TopHeader = () => {
+
+    // console.log(facebook)
     return (
         <Container>
             <div className={styles.mainParent}>

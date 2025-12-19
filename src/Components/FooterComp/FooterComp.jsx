@@ -3,6 +3,23 @@ import { Container } from 'react-bootstrap'
 import styles from "./FooterComp.module.css"
 import { Link } from 'react-router-dom'
 
+
+import img1 from "../../assets/FooterCompImages/footer_timing.svg"
+import img2 from "../../assets/FooterCompImages/footer_mobile.svg"
+import img3 from "../../assets/FooterCompImages/footer_landline.svg"
+import img4 from "../../assets/FooterCompImages/footer_email.svg"
+
+
+
+
+import facebook from "../../assets/FooterCompImages/footer_fb.svg"
+import x from "../../assets/FooterCompImages/footer_x.svg"
+import instagram from "../../assets/FooterCompImages/footer_instagram.svg"
+import youtube from "../../assets/FooterCompImages/footer_youtube.svg"
+import whatsapp from "../../assets/FooterCompImages/footer_whatsapp.png"
+
+
+
 const FooterComp = () => {
     return (
         <div className={styles.footerGrandPrent}>
@@ -54,30 +71,30 @@ const FooterComp = () => {
 
                            <div className={styles.queryParent}>
                            <div className={styles.query}>
-                                <img src="src/assets/FooterCompImages/footer_timing.svg" alt="" />
+                                <img src={img1} alt="" />
                                 <p>Timings: 24/7</p>
                            </div>
                            <div className={styles.query}>
-                                <img src="src/assets/FooterCompImages/footer_mobile.svg" alt="" />
+                                <img src={img2} alt="" />
                                 <p>Mobile: 1777</p>
                            </div>
                            <div className={styles.query}>
-                                <img src="src/assets/FooterCompImages/footer_landline.svg" alt="" />
+                                <img src={img3} alt="" />
                                 <p>+92 51 111 786 100</p>
                            </div>
                            <div className={styles.query}>
-                                <img src="src/assets/FooterCompImages/footer_email.svg" alt="" />
+                                <img src={img4} alt="" />
                                  <p> csd@nadra.gov.pk</p>
                            </div>
                         </div>
 
                     <div className={`${styles.socialMedia}`}>
                         <p>Follow Us</p>
-                        <img src="src/assets/FooterCompImages/footer_fb.svg" alt="" />
-                        <img src="src/assets/FooterCompImages/footer_x.svg" alt="" />
-                        <img src="src/assets/FooterCompImages/footer_instagram.svg" alt="" />
-                        <img src="src/assets/FooterCompImages/footer_youtube.svg" alt="" />
-                        <img src="src/assets/FooterCompImages/footer_whatsapp.svg" alt="" />
+                        <img src={facebook} alt="" />
+                        <img src={x} alt="" />
+                        <img src={instagram} alt="" />
+                        <img src={youtube} alt="" />
+                        <img src={whatsapp} alt="" />
                     </div>
 
                     </div>

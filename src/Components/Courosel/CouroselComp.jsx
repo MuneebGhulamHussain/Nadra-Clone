@@ -3,6 +3,15 @@ import Carousel from 'react-bootstrap/Carousel';
 import styles from "./Courosel.module.css"
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
+
+import image1 from "../../assets/CouroselImages/image1.webp"
+import image2 from "../../assets/CouroselImages/img2.webp"
+import image3 from "../../assets/CouroselImages/image3.webp"
+import image4 from "../../assets/CouroselImages/image4.webp"
+import image5 from "../../assets/CouroselImages/image5.webp"
+import image6 from "../../assets/CouroselImages/image6.webp"
+
+
 const CouroselComp = () => {
     return (
         <>
@@ -10,22 +19,22 @@ const CouroselComp = () => {
 
                 <Carousel className={styles.customParent}>
                     <Carousel.Item interval={1000}>
-                        <img src="src/assets/CouroselImages/image1.webp" alt="" />
+                        <img src={image1} alt="" />
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
-                        <img src="src/assets/CouroselImages/img2.webp" alt="" />
+                        <img src={image2} alt="" />
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
-                        <img src="src/assets/CouroselImages/image3.webp" alt="" />
+                        <img src={image3} alt="" />
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
-                        <img src="src/assets/CouroselImages/image4.webp" alt="" />
+                        <img src={image4} alt="" />
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
-                        <img src="src/assets/CouroselImages/image5.webp" alt="" />
+                        <img src={image5} alt="" />
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
-                        <img src="src/assets/CouroselImages/image6.webp" alt="" />
+                        <img src={image6} alt="" />
                     </Carousel.Item>
                 </Carousel>
             </div>

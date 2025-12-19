@@ -1,4 +1,6 @@
-
+.footerGrandPrent{
+    margin-top: 30px;
+}
 .footerParent {
     display: flex;
     justify-content: space-between;

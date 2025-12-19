@@ -4,6 +4,24 @@ import { Row, Col } from "react-bootstrap";
 
 import styles from "./GalleryComp.module.css"
 
+
+import galleyImg1 from "../../assets/GalleryCompImages/img1.webp"
+import galleyImg2 from "../../assets/GalleryCompImages/gal2.webp"
+import galleyImg3 from "../../assets/GalleryCompImages/gal3.webp"
+import galleyImg4 from "../../assets/GalleryCompImages/gal4.webp"
+import galleyImg5 from "../../assets/GalleryCompImages/gal5.webp"
+import galleyImg6 from "../../assets/GalleryCompImages/gal6.webp"
+import galleyImg7 from "../../assets/GalleryCompImages/gal7.webp"
+import galleyImg8 from "../../assets/GalleryCompImages/gal8.webp"
+
+
+import mediaCenterImg1 from "../../assets/GalleryCompImages/announcements.svg"
+import mediaCenterImg2 from "../../assets/GalleryCompImages/downloads.svg"
+import mediaCenterImg3 from "../../assets/GalleryCompImages/careers.svg"
+import mediaCenterImg4 from "../../assets/GalleryCompImages/tenders.svg"
+
+
+
 const GalleryComp = () => {
     return (
         <>
@@ -20,7 +38,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/img1.webp"
+                                src={galleyImg1}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -30,7 +48,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/gal2.webp"
+                                src={galleyImg2}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -40,7 +58,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/gal3.webp"
+                                src={galleyImg3}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -50,7 +68,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/gal4.webp"
+                                src={galleyImg4}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -60,7 +78,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/gal5.webp"
+                                src={galleyImg5}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -70,7 +88,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/gal6.webp"
+                                src={galleyImg6}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -80,7 +98,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/gal7.webp"
+                                src={galleyImg7}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -90,7 +108,7 @@ const GalleryComp = () => {
                     <Col lg={3} md={6} sm={6} xs={12}>
                         <div className={styles.imgCardOne}>
                             <img
-                                src="src/assets/GalleryCompImages/gal8.webp"
+                                src={galleyImg8}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -112,7 +130,7 @@ const GalleryComp = () => {
                         <div className={styles.mediaCard1}>
                             <div className={styles.imgParent}>
                             <img
-                                src="src/assets/GalleryCompImages/announcements.svg"
+                                src={mediaCenterImg1}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -125,7 +143,7 @@ const GalleryComp = () => {
                         <div className={styles.mediaCard1}>
                             <div className={styles.imgParent}>
                             <img
-                                src="src/assets/GalleryCompImages/downloads.svg"
+                                src={mediaCenterImg2}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -138,7 +156,7 @@ const GalleryComp = () => {
                         <div className={styles.mediaCard1}>
                             <div className={styles.imgParent}>
                             <img
-                                src="src/assets/GalleryCompImages/careers.svg"
+                                src={mediaCenterImg3}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -151,7 +169,7 @@ const GalleryComp = () => {
                         <div className={styles.mediaCard1}>
                             <div className={styles.imgParent}>
                             <img
-                                src="src/assets/GalleryCompImages/tenders.svg"
+                                src={mediaCenterImg4}
                                 alt=""
                                 className="img-fluid"
                             />
@@ -161,7 +179,7 @@ const GalleryComp = () => {
                     </Col>
 
                 </Row>
-            </Container>
+ </Container>
 
 
 
