@@ -1,0 +1,113 @@
+.image {
+    width: 280px !important;
+    /* border: 1px solid black; */
+}
+
+.image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text {
+    /* border: 1px solid black; */
+    width: 74%;
+}
+
+.text h3 {
+    font-weight: bold;
+}
+
+.aboutMainParent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width:768px) {
+    .aboutMainParent {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        /* border: 1px solid black; */
+    }
+
+    .image img {
+        width: 60%;
+    }
+
+    .text {
+        /* border: 1px solid black; */
+        width: 100%;
+
+    }
+    .text p{
+        text-align: justify;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* about second part code starts here */
+
+.aboutSecondPart{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+
+
+
+
+.aboutSecondPartChild1{
+    /* border: 1px solid black; */
+    width: 40%;
+}
+.aboutSecondPartChild2{
+    width: 20%;
+    /* border: 1px solid pink; */
+    font-weight: 500;
+}
+
+
+.editPara{
+    font-size: 1.3em;
+    font-weight: bold !important;
+}
+
+
+
+
+.innerNumbers{
+    line-height: 3px;
+}
+.innerNumbers p{
+
+    line-height: 17px;
+}
+@media only screen and (max-width:500px){
+    .aboutSecondPart{
+        flex-direction: column;
+    }
+    .aboutSecondPartChild1{
+        width: 100%;
+    }
+    .aboutSecondPartChild2{
+        width: 100%;
+    }
+}
+
+/* about second part code ends here */

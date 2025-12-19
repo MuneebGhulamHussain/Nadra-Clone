@@ -1,0 +1,133 @@
+.childOne{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.forText{
+    /* border: 1px solid orange; */
+    width: 260px;
+    height: 120px;
+}
+
+@media only screen and (max-width:767px){
+    .childOne{
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .forText{
+        width: 80%;
+        height: 120px;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-top: 100px; */
+    }
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+
+
+.mapMainParent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+}
+.mapChild1{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.head4{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.para{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+.mapCustom{
+    width: 100%;
+    height: 400px;
+}
+
+.form{
+    /* border: 2px solid black; */
+    width: 45%;
+}
+.textaraeclass{
+  width: 100%;
+  height: 120px;
+  resize: none; /* user resize band */
+      border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.textaraeclass:focus{
+    border: 1px solid #006600;
+}
+.input1{
+    display: flex;
+    justify-content: space-between;
+}
+.input1 input{
+    width: 47%;
+
+}
+.form input{
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    /* border: 1px solid orange; */
+    width: 47%;
+
+}
+.form input:focus{
+    border: 1px solid #006600;
+}
+.btn{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #006600;
+    border-radius: 5px;
+    height: 50px;
+}
+.par{
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+@media only screen and (max-width:588px){
+    .mapMainParent{
+        flex-direction: column;
+    }
+    .mapChild1{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+}

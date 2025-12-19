@@ -1,0 +1,226 @@
+.mainParent {
+    background-color: #F2F2F2;
+
+
+}
+
+.forFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardOneParent {
+    /* border: 1px solid blue; */
+    width: 48%;
+}
+
+.cardOneParent span {
+    display: block;
+}
+
+.cardOneParent h1 {
+    font-weight: bold;
+    font-size: 4.2em;
+    color: #006600;
+}
+
+.cardOneParent p {
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.imgSec img {
+    width: 230px;
+}
+
+.imgSec {
+    display: flex;
+    gap: 20px;
+}
+
+.cardTwoParent {
+    width: 500px;
+
+    /* border: 1px solid pink; */
+}
+
+.cardTwoParent img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width:764px) {
+    .forFlex {
+        flex-direction: column;
+    }
+
+    .cardOneParent {
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .cardOneParent h1,.cardOneParent p {
+        text-align: center;
+        /* border: 1px solid green; */
+    }
+
+    .cardTwoParent {
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid black; */
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .cardTwoParent img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:512px) {
+    .imgSec img {
+        width: 40%;
+    }
+    .imgSec{
+        justify-content: center;
+    }
+     .cardTwoParent img{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Digital Comp part two code starts here */
+.mainParentTwo {
+    background-color: #197AE9;
+    height: 350px;
+    padding-top: 55px;
+    margin-bottom: 150px;
+    margin-top: 70px;
+}
+
+.forFlexTwo {
+    /* border: 1px solid yellow; */
+    background-color: white;
+    /* margin-top: 200px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.forImg {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 290px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.otherImg {
+    /* width: 400px; */
+    width: 100%;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+}
+
+.forText {
+    line-height: 5px;
+    margin-top: 10px;
+}
+
+.forText2 {
+    line-height: 20px !important;
+    justify-content: space-between;
+}
+
+.forText h6 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.forText p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.cardOneParentPartTwo {
+    /* border: 1px solid green; */
+    width: 44%;
+}
+
+.cardOneParentPartTwoOther {
+    width: 50%;
+}
+
+.forListinf ul {
+    /* border: 1px solid blue; */
+    padding: 0;
+    padding-left: 17px;
+}
+
+.forListinf ul li {
+    margin-top: 10px;
+    font-weight: 340;
+}
+
+.specList {
+    list-style: none;
+    /* border: 1px solid brown; */
+    margin-left: -16px;
+}
+
+
+
+@media only screen and (max-width:781px) {
+    .forFlexTwo {
+        flex-direction: column;
+    }
+
+    .cardOneParentPartTwo {
+        width: 100%;
+    }
+
+    .mainParentTwo {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width:515px) {
+
+    .mainParentTwo {
+        height: 85vh;
+    }
+}
+
+@media only screen and (max-width:422px) {
+
+    .mainParentTwo {
+        height: 90vh;
+    }
+}
+
+
+/* Digital Comp part two code ends here */
+
+
+
+.head1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 70px;
+}

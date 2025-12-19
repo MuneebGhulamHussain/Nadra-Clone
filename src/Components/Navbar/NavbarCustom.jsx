@@ -103,8 +103,8 @@ const NavbarCustom = () => {
             <Nav className="me-auto">
               {/* //use your routing path in this "to" tag              */}
               <Nav.Link className="text-white " as={Link} to={"/"}>{home}</Nav.Link>
-              <Nav.Link className="text-white " as={Link} to={"/"}>{AboutNadra}</Nav.Link>
-              <Nav.Link className="text-white " as={Link} to={"/"}>{pakIdentity}</Nav.Link>
+              <Nav.Link className="text-white " as={Link} to={"/aboutus"}>{AboutNadra}</Nav.Link>
+              <Nav.Link className="text-white " as={Link} to={"/digitalIdentity"}>{pakIdentity}</Nav.Link>
               <Nav.Link className="text-white " as={Link} to={"/"}>{laws}</Nav.Link>
               <Nav.Link className="text-white " as={Link} to={"/"}>{Products}</Nav.Link>
               <Nav.Link className="text-white " as={Link} to={"/"}>{officeAndMRVs}</Nav.Link>
@@ -114,7 +114,7 @@ const NavbarCustom = () => {
               <Nav.Link className="text-white " as={Link} to={"/"}>{career}</Nav.Link>
               <Nav.Link className="text-white " as={Link} to={"/"}>{media}</Nav.Link>
               <Nav.Link className="text-white " as={Link} to={"/"}>{Statistics}</Nav.Link>
-              <Nav.Link className="text-white " as={Link} to={"/"}>{Contact}</Nav.Link>
+              <Nav.Link className="text-white " as={Link} to={"/contactUs"}>{Contact}</Nav.Link>
               <button onClick={changeState} className={styles.customButton}>{toggle === "urdu" ? "اردو" : "English"}</button>
             </Nav>
           </Container>
